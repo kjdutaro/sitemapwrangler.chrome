@@ -1,4 +1,4 @@
-let stars = Array.from(document.querySelectorAll("i"));
+let stars = Array.from(document.querySelectorAll(".star"));
 let selectedRating = -1;
 
 stars.forEach((element, index) => {

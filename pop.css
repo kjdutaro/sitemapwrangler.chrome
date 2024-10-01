@@ -41,32 +41,22 @@ hr {
   color: lightgrey;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 1,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
 
 #stars {
   display: inline-block;
-}
-
-#stars a {
-  color: lightgrey;
-  transition: color 0.3s ease;
   cursor: pointer;
-  
 }
 
-#stars i {
-  font-size: 1rem;
-}
-#stars .selected {
-  color: gold;
+.star {
+  fill: #FFED29;
+  width: 1rem;
+  height: 1rem;
+  transition: fill 0.3s ease;
 }
 
+.star.selected {
+  fill: #FFAA1D;
+}
 
 #message {
   margin-top: 10px;
